@@ -1,0 +1,35 @@
+GET /Ecommerce-Rest-API/api/admins HTTP/1.1
+Host: localhost:9595
+
+######
+GET /Ecommerce-Rest-API/api/admins/63 HTTP/1.1
+Host: localhost:9595
+
+######
+POST /Ecommerce-Rest-API/api/admins/addAdmin HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<adminPost>
+  <email></email>
+  <name></name>
+  <password></password>
+</adminPost>
+
+###################
+
+PUT  /Ecommerce-Rest-API/api/admins/updateAdmin HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<admin>
+  <email></email>
+  <id></id>
+  <name></name>
+  <password></password>
+</admin>
+
+########
+
+DELETE /Ecommerce-Rest-API/api/admins/63/deleteAdmin HTTP/1.1
+Host: localhost:9595

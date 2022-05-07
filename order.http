@@ -1,0 +1,22 @@
+GET /Ecommerce-Rest-API/api/orders HTTP/1.1
+Host: localhost:9595
+
+#####
+GET /Ecommerce-Rest-API/api/orders/99 HTTP/1.1
+Host: localhost:9595
+
+############
+
+POST /Ecommerce-Rest-API/api/orders/addOrder HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<orderPostRequest>
+  <createdAt>2022-05-06T16:40:14.286+02:00</createdAt>
+  <customerId>5</customerId>
+  <products>
+    <id>11</id>
+    <name>food</name>
+    <orderQuantity>7</orderQuantity>
+  </products>
+</orderPostRequest>

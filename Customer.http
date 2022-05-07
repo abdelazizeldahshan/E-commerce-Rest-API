@@ -1,0 +1,45 @@
+GET /Ecommerce-Rest-API/api/customers HTTP/1.1
+Host: localhost:9595
+
+####
+
+GET /Ecommerce-Rest-API/api/customers/66 HTTP/1.1
+Host: localhost:9595
+
+######
+
+POST  /Ecommerce-Rest-API/api/customers/singup HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<customerPost>
+    <name>as</name>
+    <email>@has</email>
+    <interst>asd</interst>
+    <jop>asd</jop>
+    <address>ada</address>
+    <gender>female</gender>
+    <creditLimit>232</creditLimit>
+    <password>234234</password>
+</customerPost>
+
+#############
+
+PUT /Ecommerce-Rest-API/api/customers/updateCustomer HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<customer>
+    <name></name>
+    <id></id>
+    <email></email>
+    <interst></interst>
+    <jop></jop>
+    <address></address>
+    <gender></gender>
+    <creditLimit></creditLimit>
+</customer>
+
+###########
+DELETE /Ecommerce-Rest-API/api/customers/66/delete HTTP/1.1
+Host: localhost:9595

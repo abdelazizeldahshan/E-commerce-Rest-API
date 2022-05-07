@@ -1,0 +1,41 @@
+GET /Ecommerce-Rest-API/api/clerks HTTP/1.1
+Host: localhost:9595
+
+######
+
+GET /Ecommerce-Rest-API/api/clerks/64 HTTP/1.1
+Host: localhost:9595
+Accept: application/xml
+
+########
+GET /Ecommerce-Rest-API/api/clerks/mona HTTP/1.1
+Host: localhost:9595
+Accept: application/json
+
+#######
+POST  /Ecommerce-Rest-API/api/clerks/addClerk HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<clerkPost>
+    <email>f@gmail.com</email>
+    <name>fawzi</name>
+    <password>2424</password>
+</clerkPost>
+
+###################
+
+PUT /Ecommerce-Rest-API/api/clerks/updateClerk HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<clerk>
+    <email>fahd@yahoo.com</email>
+    <name>fahd</name>
+    <id>76</id>
+</clerk>
+
+#########
+
+DELETE /Ecommerce-Rest-API/api/clerks/65/delete HTTP/1.1
+Host: localhost:9595

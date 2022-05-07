@@ -1,0 +1,70 @@
+GET /Ecommerce-Rest-API/api/products HTTP/1.1
+Host: localhost:9595
+
+
+#####
+
+GET /Ecommerce-Rest-API/api/products/categories HTTP/1.1
+Host: localhost:9595
+
+################
+
+GET /Ecommerce-Rest-API/api/products/categories/5 HTTP/1.1
+Host: localhost:9595
+
+##########
+
+DELETE /Ecommerce-Rest-API/api/products/17/deleteProduct HTTP/1.1
+Host: localhost:9595
+
+####
+
+GET /Ecommerce-Rest-API/api/products/99 HTTP/1.1
+Host: localhost:9595
+Accept: application/xml
+
+####
+
+post /Ecommerce-Rest-API/api/products/addProduct HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+
+<productPostRequest>
+  <categoryname>foods</categoryname>
+  <clerkName>fawzi</clerkName>
+  <price>775</price>
+  <productDesc>dell lap top Computer</productDesc>
+  <productName>Dell Lap</productName>
+  <quntity>78</quntity>
+</productPostRequest>
+
+#####
+
+put /Ecommerce-Rest-API/api/products/editProduct HTTP/1.1
+Host: localhost:9595
+Content-Type: application/xml
+Accept: application/xml
+
+<productPutRequest>
+  <categories>
+    <id></id>
+  </categories>
+  <clerk>
+    <email></email>
+    <id></id>
+    <name></name>
+  </clerk>
+  <id></id>
+  <price></price>
+  <productDesc></productDesc>
+  <productName></productName>
+  <quntity></quntity>
+</productPutRequest>
+
+#####
+
+GET /Ecommerce-Rest-API/api/products/pagenation?start=0&page=1 HTTP/1.1
+Host: localhost:9595
+Accept: application/json
+
+#####
