@@ -13,7 +13,7 @@ E-commerce Api with 6 resources documented By [postman](https://www.postman.com/
 Development Tools
 ------------------
 * [JAX-RS](https://jakarta.ee/specifications/restful-ws/) Specification and [Jersey](https://eclipse-ee4j.github.io/jersey/) implementation .
-* `JPA` Specification and `Hibernate (6.0.0.Final)` implementation for Database . 
+* `JPA` Specification and `Hibernate` implementation for Database . 
 * `MySql` Database
 * `Maven` for Project Configration `Pom.xml`.
 * `Tomcat` WebServer.
