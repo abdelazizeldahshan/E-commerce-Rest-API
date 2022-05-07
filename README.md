@@ -20,7 +20,7 @@ Development Tools
 -----------------------------------------------
 Run With Maven
 ----------------
-You can Deploy `Api` to `tomcat` With `tomcat7-maven-plugin` by Change `url` to your local host url
+You can Deploy `Api` to `tomcat` With `tomcat7-maven-plugin` ```mvn clean package tomcat7:deploy```
 
      ``` <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
