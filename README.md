@@ -2,7 +2,7 @@
 
 E-commerce Api with 6 resources documented By [postman](https://www.postman.com/")
 --------------
-* [Admin]("https://documenter.getpostman.com/view/20705929/UyxdL95K")
+* [Admin](https://documenter.getpostman.com/view/20705929/UyxdL95K")
 * [Customer](https://documenter.getpostman.com/view/20705929/UyxdL9P1")
 * [Clerk](https://documenter.getpostman.com/view/20705929/UyxdL9Nz")
 * [Product](https://documenter.getpostman.com/view/20705929/UyxdL9P4")
