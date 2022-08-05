@@ -1,8 +1,0 @@
-<Context>
-
-    <Resource name="jdbc/myschema" auth="Container" type="javax.sql.DataSource"
-        maxActive="100" maxIdle="30" maxWait="10000"
-        username="root" password="abdelaziz123@!$" driverClassName="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/myschema" />
-
-</Context>
